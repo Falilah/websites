@@ -172,11 +172,11 @@ article h2 {
 }
 nav ul {
   position: relative;
-  background: #7f5539;
+  background: #79452b;
   color: #d1d9e6;
   padding: 10%;
-  border: solid 0.1rem #2f110b;
-  border-radius: 2%;
+  border: solid 0.5rem #9c6644;
+  border-radius: 5%;
 }
 .hidden {
   display: none;
