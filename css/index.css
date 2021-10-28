@@ -1,270 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap");
-html {
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
-body {
-  color: #d1d9e9;
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "poppins", sans-serif;
-  background-color: #b08968;
-  font-size: 1.5rem;
 }
-footer {
-  background: #ddb892;
-  font-size: 18px;
-  color: #d1d9e6;
-  padding: 5% 0;
-}
-footer div {
-  margin: 5% 20%;
-  text-align: center;
-  opacity: 0.7;
-}
-footer div h3 {
-  margin-bottom: -3%;
-}
-.copywrite {
-  text-align: center;
-  position: relative;
-  margin: 0;
-  background: #ddb892;
-  margin-top: -4%;
-  padding-bottom: 2%;
-}
-
-.contact {
-  display: grid;
-  place-items: center;
-  margin: 0;
-  /* background: #7f5539; */
-  padding: 5%;
-  color: #d1d9e6;
-  font-size: 18px;
-}
-.form {
-  width: 300px;
-  height: 200x;
-  position: relative;
-  display: grid;
-  place-content: right;
-  margin: 0%;
-  border-radius: 50px;
-  /*right bottom*/
-  box-shadow: 5px 5px 5px #d1d9e9 inset,
-    /*left-top*/ -5px -5px 5px #d1d9e9 inset;
-  padding: 0% 3% 12% 3%;
-  margin: -10% 0;
-}
-fieldset {
-  /*right bottom*/
-  box-shadow: 3px 3px 5px #d1d9e9 inset,
-    /*left-top*/ -3px -3px 5px #d1d9e9 inset;
-
-  border-radius: 50px;
-  opacity: 0.9;
-}
-.solve {
-  margin: -3% 0 3.5% 0;
-}
-label,
-input,
-button,
-textarea {
+body {
   display: block;
-  box-sizing: border-box;
-  width: 100%;
-  height: 100% auto;
-  border-radius: 0%;
-  padding: 4%;
+  /* place-content: center; */
+  color: #ede0d4;
+  background-color: #9c6644;
+  font-size: 1.5rem;
+  font-family: "poppins", sans-serif;
 }
-textarea {
-  margin-top: 2%;
-  border-radius: 20px;
-  border: none;
-  color: #d1d9e6;
+header {
+  margin: 4%;
 }
-label {
-  margin-bottom: -3%;
-}
-
-input {
-  background-color: #b08968;
-  border-radius: 50px;
-  border: none;
-  box-shadow: 4px 4px 10px #7f5539 inset, inset -5px -5px 10px #79452b,
-    inset 0px 0px 5px #fff, 0px 0px 5px #fff;
-}
-button {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  border-radius: 40px;
-  border: none;
-  background: #d1d9e9;
-  color: #2f110b;
-  box-shadow: 3px 3px 5px rgb(114, 112, 112) inset, -2px -2px 5px silver inset,
-    0px 0px 2px white inset, 0px 0px 0px 5px rgb(168, 162, 162) inset;
-  width: 30%;
+article {
+  display: grid;
+  justify-content: center;
+  position: relative;
+  top: 150px;
+  font-size: 3rem;
+  margin: 5%;
+  font-style: italic;
 }
 a {
-  text-decoration: none;
-  color: inherit;
-}
-button:hover {
-  background: #79452b;
-  color: #d1d9e9;
-  cursor: pointer;
-}
-input:focus {
-  outline: none;
-}
-.portfolio {
-  padding: 5%;
-}
-
-.social,
-.side_line,
-.cert,
-.extra {
-  text-align: center;
-  box-shadow: 5px 5px 10px #9c6644 inset, inset -5px -5px 10px #b08968,
-    0px 0px 2px white inset, 0px 0px 0px 5px rgb(168, 162, 162) inset;
-  border-radius: 5%;
-  margin: 5% 5%;
-  padding: 5% 5%;
-}
-ul li {
-  list-style-type: none;
-  align-items: center;
-  padding: 1%;
-}
-.portfolio h2,
-article h2 {
-  margin-bottom: -0.5%;
-}
-.leo {
-  padding-top: 10%;
-}
-.make_sure,
-.statement,
-.who,
-.about {
-  text-align: center;
-  padding: 5%;
-  box-shadow: 5px 5px 10px #b08968 inset, inset 5px 5px 10px #9c6644;
-  border-radius: 15%;
-  margin: 10% 5%;
-}
-.pry-ham {
-  position: relative;
-  float: right;
-  font-size: 2rem;
-  background: none;
-  margin-top: -10vh;
-  z-index: 5;
-}
-.headi {
-  margin-top: 5%;
-  font-size: 2rem;
-  margin-left: 3%;
-}
-nav ul {
-  position: relative;
-  background: #9c6644;
-  color: #d1d9e6;
-  padding: 10%;
-  border: solid 0.5rem #7f5539;
-  border-radius: 2%;
-}
-.hidden {
-  display: none;
-}
-.hamburger {
-  position: relative;
-  margin-left: 20%;
-  z-index: 2;
-  margin-top: 2%;
-}
-nav li a {
-  display: block;
-  padding-bottom: 5%;
-  padding-top: 5%;
-  text-align: center;
-  font-size: 2rem;
-}
-
-@media only screen and (min-width: 800px) {
-  footer div h3 {
-    margin-bottom: 0%;
-  }
-  footer {
-    display: flex;
-    font-size: 15px;
-    padding: 2%;
-  }
-
-  footer div {
-    margin: 5% 5%;
-  }
-
-  /* .contact {
-    font-size: 2rem;
-    padding: 15%;
-  } */
-  .form {
-    width: 500px;
-    height: 700px;
-  }
-
-  label,
-  input,
-  button,
-  textarea {
-    width: 80%;
-  }
-  .portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    background-size: cover;
-    place-content: space-around;
-  }
-  .cert .head h2 {
-    text-align: left;
-  }
-  .social,
-  .side_line,
-  .cert,
-  .extra {
-    flex-basis: 40%;
-    margin: 2%;
-    padding: 0%;
-  }
-  .article {
-    display: flex;
-    flex-wrap: wrap;
-    place-content: space-around;
-  }
-  .make_sure,
-  .statement,
-  .who,
-  .about {
-    flex-basis: 40%;
-    margin: 1%;
-    padding: 2%;
-  }
-  .pry-ham {
-    display: none;
-  }
-  nav ul {
-    display: flex;
-    background: none;
-    margin-top: -10vw;
-    place-content: space-between;
-    border: none;
-  }
-  .hidden {
-    display: flex;
-  }
+  color: #2f110b;
 }
