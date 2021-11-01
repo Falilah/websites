@@ -177,6 +177,7 @@ nav ul {
   padding: 10%;
   border: solid 0.5rem #9c6644;
   border-radius: 5%;
+  box-shadow: 5px 5px 10px #b08968 inset, inset -5px -5px 10px #b08968;
 }
 .hidden {
   display: none;
@@ -262,6 +263,7 @@ nav li a {
     margin-top: -10vw;
     place-content: space-between;
     border: none;
+    box-shadow: none;
   }
   .hidden {
     display: flex;
